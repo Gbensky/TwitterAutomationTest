@@ -1,5 +1,6 @@
 {
   "projectId": "0001aa",
+  "chromeWebSecurity": false,
   "baseUrl": "https://twitter.com",
   "viewportWidth": 1680,
   "viewportHeight": 1050,
