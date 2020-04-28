@@ -10,11 +10,14 @@ The minimum requirement by this project is node version: >= 8.0.0
 * [Node 8.0.0 and above](https://nodejs.org/en/) 
 
 #### Clone repo
+Run the following commands in your terminal
 
 `git clone project`
 
+`cd clone_project_path`
 
 #### Install dependencies
+Run the following command in your terminal
 
 `npm install`
 
@@ -49,6 +52,8 @@ The minimum requirement by this project is node version: >= 8.0.0
    "projectId": "any_id_of_your_choice"
  }
  ```
+Note: If projectId is gotten from Cypress (after sign-up with them) it should not be changed. See [here](https://docs.cypress.io/guides/dashboard/projects.html#Project-ID)
+
  - Create a file structure for tests. See [here](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Folder-Structure)
  
 ### Test creation
@@ -66,3 +71,4 @@ To run test from Cypress GUI
 ### Note
  - Cypress has a default configuration. You can change this in your cypress. json file. See [here](https://on.cypress.io/guides/configuration)
  - npm dependencies and libraries can be added in the package.json file
+ - Text in this block `code block` should ran in a terminal/ command prompt
