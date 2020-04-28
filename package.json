@@ -19,7 +19,8 @@
     "cleanup": "rm -fr mochawesome-report; rm -fr cypress/results; rm -rf mochawesome.json",
     "merge_reports": "mochawesome-merge \"cypress/results/*.json\" > mochawesome.json",
     "generate_mochawesome_report": "marge mochawesome.json",
-    "e2e_mochawesome": "npm run cleanup; cypress run; npm run merge_reports; npm run generate_mochawesome_report"
+    "remove_mochawesome_json": " rm -rf mochawesome.json",
+    "e2etest_with_report": "npm run cleanup; cypress run; npm run merge_reports; npm run generate_mochawesome_report; npm run remove_mochawesome_json"
   },
   "author": "Oluwagbenro Oni",
   "license": "ISC"

@@ -21,11 +21,11 @@ The minimum requirement by this project is node version: >= 8.0.0
 ### Running the tests
  To run test from command line
   
- `./node_modules/cypress/bin/cypress run`
+`npm run e2etest_with_report`
+
+To run test from Cypress GUI
  
- To run test from Cypress GUI
-  
- `./node_modules/cypress/bin/cypress open`
+`npm run cy:open`
 
 
 ## Setting up new Cypress project
