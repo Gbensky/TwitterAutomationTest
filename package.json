@@ -1,0 +1,26 @@
+{
+  "name": "twitterautomationtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.4.1",
+    "faker": "4.1.0",
+    "randomstring": "1.1.5",
+    "mocha": "7.1.2",
+    "mochawesome": "6.1.1",
+    "mochawesome-merge": "4.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start & cypress run",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "cleanup": "rm -fr mochawesome-report; rm -fr cypress/results; rm -rf mochawesome.json",
+    "merge_reports": "mochawesome-merge \"cypress/results/*.json\" > mochawesome.json",
+    "generate_mochawesome_report": "marge mochawesome.json",
+    "e2e_mochawesome": "npm run cleanup; cypress run; npm run merge_reports; npm run generate_mochawesome_report"
+  },
+  "author": "Oluwagbenro Oni",
+  "license": "ISC"
+}

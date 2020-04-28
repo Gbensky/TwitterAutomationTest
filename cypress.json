@@ -1,0 +1,13 @@
+{
+  "projectId": "0001aa",
+  "baseUrl": "https://twitter.com",
+  "viewportWidth": 1680,
+  "viewportHeight": 1050,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}
